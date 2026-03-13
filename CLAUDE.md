@@ -13,13 +13,18 @@ This is a personal project sandbox for building small web games and scripts. Pro
 
 ## Git workflow
 
-All changes should be committed and pushed to GitHub after meaningful edits:
+**After every meaningful piece of work, commit and push immediately.** This ensures no progress is ever lost and the GitHub repo always reflects the current state.
 
 ```bash
 git add <specific files>
 git commit -m "descriptive message"
 git push
 ```
+
+Commit message rules:
+- Use an imperative subject line (e.g. "Add AI opponent to Tic Tac Toe")
+- Keep it specific — describe what changed and why, not just "update file"
+- Always append: `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
 
 To revert a file to a previous commit:
 ```bash
