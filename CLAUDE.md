@@ -8,8 +8,8 @@ This is a personal project sandbox for building small web games and scripts. Pro
 
 ## Running projects
 
-- **HTML games:** `start <filename>.html` (opens in default browser on Windows)
-- **Python scripts:** `python <filename>.py`
+- **HTML games:** `start games/<filename>.html` (opens in default browser on Windows)
+- **Python scripts:** `python scripts/<filename>.py`
 
 ## Git workflow
 
@@ -34,7 +34,7 @@ git checkout <hash> -- <file>
 
 Remote: `https://github.com/sikaojun-BC/ClaudeCodeCursorTest`
 
-## Architecture: tictactoe.html
+## Architecture: games/tictactoe.html
 
 Single-file app — HTML, CSS, and JS all inline. Key design points:
 
